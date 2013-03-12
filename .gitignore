@@ -1,0 +1,7 @@
+dazeus-plugin-megahal
+*.brn
+*.dic
+*.log
+*.trn
+megahal.txt
+*.o
