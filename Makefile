@@ -1,5 +1,5 @@
 CFLAGS = -I../libdazeus/include -Wall
-LDFLAGS = -L../libdazeus/lib -ldazeus
+LDFLAGS = -L../libdazeus/lib -ldazeus -lm
 
 dazeus-plugin-megahal: dazeus-plugin-megahal.o megahal.o
 	$(CC) -o dazeus-plugin-megahal dazeus-plugin-megahal.o megahal.o $(LDFLAGS)
